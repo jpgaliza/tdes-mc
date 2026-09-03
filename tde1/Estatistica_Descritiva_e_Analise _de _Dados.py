@@ -26,15 +26,13 @@ notas = np.array([
 ])
 
 for i in range(len(alunos)):
-    print(f'{alunos[i]}: {notas[i]}')
-
+print(f'{alunos[i]}: {notas[i]}')
 print('---'*10)
 
 media_aluno = np.mean(notas, axis=1)
 
 for i in range(len(alunos)):
-    print(f'Média de {alunos[i]}: {media_aluno[i]:.2f}')
-
+print(f'Média de {alunos[i]}: {media_aluno[i]:.2f}')
 print('---'*10)
 
 media_geral = np.mean(notas)
